@@ -58,15 +58,6 @@ class EmailConfig {
 		//'headerCharset' => 'utf-8',
 	);
 
-	public $gmail = array(
-        'host' => 'ssl://smtp.gmail.com',
-        'port' => 465,
-        'timeout' => 30,
-        'username' => 'marieelise.lecoq@gmail.com',
-        'password' => 'abm1986!',
-        'transport' => 'Smtp',
-        'emailFormat' => 'both'
-    );
 
     public $snv = array(
         'host' => 'lis-02.snv.jussieu.fr',
