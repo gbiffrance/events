@@ -1,0 +1,18 @@
+<?php	
+$rubrics = $this->requestAction('rubrics/show'); 
+if ($rubrics)
+{ 
+?>
+	<ul class="nav">
+		<?php
+			foreach ($rubrics as $rubric)
+			{	
+				$name = $rubric['Rubric']['NAME'];
+				$link = $rubric['Rubric']['LINK'];
+				echo "<li class=\"menu\"> <a href=\"/eu_node_meeting_2015".$link."\">".$name."</a></li>";
+			}
+		?>
+	</ul>
+<?php       
+}
+?>

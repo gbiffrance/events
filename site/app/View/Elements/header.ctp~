@@ -1,0 +1,11 @@
+ <!--<div class="title">
+	<h2 class="titre_rouge">European Node Meeting 2015  </h2>
+</div>
+<div class="logo">
+	<a href="http://www.gbif.fr"><img src="/eu_node_meeting_2015/img/logo/logogbif_transparent.png" alt="Logo du GBIF France"/></a>
+</div> -->
+
+<a href="/eu_node_meeting_2015/">
+<img alt="GBIF FRANCE" src="/eu_node_meeting_2015/img/header_eunodemeeting_site.png" id="entete-img">
+</a>
+
