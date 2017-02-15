@@ -68,18 +68,20 @@
  */
 class DATABASE_CONFIG {
 
+	/** Developpement **/
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => '',
-		'password' => '',
+		'login' => 'root',
+		'password' => 'root',
 		'database' => 'events',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 
-	public $test = array(
+	/** Production **/
+	public $production = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
