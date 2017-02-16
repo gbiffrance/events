@@ -112,3 +112,7 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+Configure::write('codeEvent', 'F20170627');
+
+Configure::write('site', '/site');

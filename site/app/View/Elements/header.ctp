@@ -1,4 +1,4 @@
 <a href="/">
-<img alt="GBIF FRANCE" src="/img/header_formation_site.png" id="entete-img">
+	<?php echo "<img alt=\"GBIF FRANCE\" src=\"".Configure::read('site')."/img/header/header_formation_site.png\" id=\"entete-img\">" ?>
 </a>
 

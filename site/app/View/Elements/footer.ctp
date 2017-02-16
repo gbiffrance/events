@@ -3,17 +3,17 @@
 	  	<ul>
 			<li>
 				<a target="_blank" href="http://twitter.com/gbiffrance" title="Rejoignez sous sur Twitter !">
-					<img width="16" height="16" src="/img/social/twitter.png" alt="twitter logo">
+					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/twitter.png\" alt=\"twitter logo\">" ?>
 				</a>
 			</li>
 			<li>
 				<a target="_blank" href="/news.xml" title="Suivez notre actualité (Flux RSS)">
-					<img width="16" height="16" src="/img/social/rss.png" alt="RSS logo">
+					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/rss.png\" alt=\"RSS logo\">" ?>
 				</a>
 			</li>
 			<li>
 				<a target="_blank" title="Page Facebook du GBIF" href="https://www.facebook.com/gbifnews">
-					<img width="16" height="16" src="/img/social/facebook.png" alt="Facebook logo">
+					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/facebook.png\" alt=\"Facebook logo\">" ?>
 				</a> 
 			</li>
 		</ul>
