@@ -3,17 +3,12 @@
 	  	<ul>
 			<li>
 				<a target="_blank" href="http://twitter.com/gbiffrance" title="Rejoignez sous sur Twitter !">
-					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/twitter.png\" alt=\"twitter logo\">" ?>
-				</a>
-			</li>
-			<li>
-				<a target="_blank" href="/news.xml" title="Suivez notre actualité (Flux RSS)">
-					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/rss.png\" alt=\"RSS logo\">" ?>
+					<?php echo "<img width=\"28\" height=\"28\" src=\"".Configure::read('site')."/img/logo/twitter.png\" alt=\"twitter logo\">" ?>
 				</a>
 			</li>
 			<li>
 				<a target="_blank" title="Page Facebook du GBIF" href="https://www.facebook.com/gbifnews">
-					<?php echo "<img width=\"16\" height=\"16\" src=\"".Configure::read('site')."/img/logo/facebook.png\" alt=\"Facebook logo\">" ?>
+					<?php echo "<img width=\"28\" height=\"28\" src=\"".Configure::read('site')."/img/logo/facebook.png\" alt=\"Facebook logo\">" ?>
 				</a> 
 			</li>
 		</ul>
@@ -32,8 +27,11 @@
 			<li ><a  target="_blank" title="" href="http://www.gbif.fr/page/partenaires">Partenaire du GBIF France</a></li>
 		</ul>
 	</div> 
-	<address > 
-  		<p>GBIF FRANCE ● MNHN Géologie&nbsp;●&nbsp;43 rue Buffon CP 48 &ndash;&nbsp;75005 Paris&nbsp;&nbsp;&ndash; &nbsp;France <span style="line-height:1.6">&nbsp;</span>&ndash;&nbsp;<span style="line-height:1.6">Phone : +33 (0)1 40 79 80 65</span></p>
+	<address class="footer-margin" > 
+  		<p>
+  			GBIF FRANCE ● MNHN Géologie&nbsp;●&nbsp;43 rue Buffon CP 48 &ndash;&nbsp;75005 Paris&nbsp;&nbsp;&ndash; &nbsp;France <span style="line-height:1.6">&nbsp;</span>&ndash;&nbsp;<span style="line-height:1.6">Phone : +33 (0)1 40 79 80 65</span>
+  		</p>
+  	</address>
 	</div> 
 
  </footer> 

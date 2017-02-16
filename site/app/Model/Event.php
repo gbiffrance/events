@@ -5,6 +5,9 @@
 	{
 		var $name="Event";
 
+    public $belongsTo = "Institution";
+    public $belongTo = "Type";
+
 
     public function showEvent(){
       $currentEvent = $this->find('first', array(

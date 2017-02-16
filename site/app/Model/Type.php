@@ -2,7 +2,7 @@
 
 	class Institution extends AppModel
 	{
-		var $name="Institution";
+		var $name="Type";
 		public $hasMany = 'Event';
 	}
 

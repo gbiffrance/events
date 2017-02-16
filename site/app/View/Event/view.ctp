@@ -5,7 +5,7 @@
 		<h3> <?php echo $currentEvent['Event']['subtitle']; ?></h3>
 		<br />
         <h4><?php echo $currentEvent['Event']['date_txt']." - ".$currentEvent['Event']['town'] ?></h4>
-        <h4><?php echo $currentEvent['Event']['institution_id'] ?></h4>
+        <h4><?php echo $currentEvent['Institution']['name'] ?></h4>
         <h4><?php echo $currentEvent['Event']['room'].", ".$currentEvent['Event']['address']?></h4>
     </div>
 </div>
