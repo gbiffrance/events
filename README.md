@@ -3,7 +3,7 @@ Generic website for event organized by the GBIF France team.
 
 Framework : CakePHP
 
-List of existing website based on this generic skeleton :
+List of existing websites based on this generic skeleton :
 
 1) 10ans.gbif.fr
 
